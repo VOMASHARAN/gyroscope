@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>multi_gyro_fusion</name>
+  <version>0.0.0</version>
+  <description>Eight gyro simulation with ARW, RRW and Markovian noise</description>
+  <maintainer email="sharan@todo.todo">sharan</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
